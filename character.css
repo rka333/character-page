@@ -11,6 +11,11 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+
 h3{
     font-weight: bold;
     font-size: 20px;
@@ -19,6 +24,12 @@ h3{
 h4{
     font-weight: bold;
     font-size: 20px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
 }
 
 .wrapper{
@@ -63,15 +74,15 @@ h4{
     background: url(characters/hat-guy.png) no-repeat 0 0;
     background-size: 100%;
     width: 309px;
-    height: 371px;
+    height: 410px;
     position: absolute; top: 213px; right: 277px;
 }
 
 .character3{
     background: url(characters/eish-guy.png) no-repeat 0 0;
     background-size: 100%;
-    width: 297px;
-    height: 286px;
+    width: 250px;
+    height: 330px;
     position: absolute; bottom: 74px; right: 109px;
 }
 
@@ -91,6 +102,55 @@ a.cta.alt, button.cta.alt{
     background-color: #FFD400;
     color: #111111;
     box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+
+nav .logo{
+    display: block;
+    width: 300px;
+    height: 60px;
+    position: absolute; top: 35%; left: 30px;
+    margin-top: -20px;
+    background: url(characters/logo.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111111;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
 }
 
 
